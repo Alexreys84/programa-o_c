@@ -1,6 +1,6 @@
 # Estudo da linguagem C
 ## Este repositório será publicado arquivos escritos em C
-<img src="https://i.ytimg.com/vi/qXU-JrSwSUw/maxresdefault.jpg" height= "200" width="">
+<img src="https://programacaopratica.com.br/wp-content/uploads/2019/01/c2-360x240.png" height= "250" width="250">
 
 ### Abaixo é Apresentado os arquivos deste repositório
 
