@@ -13,7 +13,7 @@ int main(){
     return 0;
 } 
 ```
-### Nota 
+### Calculo de Nota.c 
 
 ```c
 #include <stdio.h>
@@ -46,7 +46,7 @@ int main() {
     return 0;
 }
 ```
-#### Operações
+#### Operações.c
 
 ```c
 #include<stdio.h>
@@ -79,7 +79,7 @@ int main(){
 
     }
 ```
-#### Descontos 
+#### Descontos.c
 
 ```c
 #include <stdio.h>
