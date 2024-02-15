@@ -1,6 +1,6 @@
 # Estudo da linguagem C
 ## Este repositório será publicado arquivos escritos em C
-<img src="https://static.vecteezy.com/ti/vetor-gratis/p3/2276837-c-language-icon-in-outline-style-vetor.jpg" height= "200" width="200">
+<img src="https://i.ytimg.com/vi/qXU-JrSwSUw/maxresdefault.jpg" height= "200" width="">
 
 ### Abaixo é Apresentado os arquivos deste repositório
 
