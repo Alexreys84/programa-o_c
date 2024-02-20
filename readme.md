@@ -277,7 +277,7 @@ return 0;
 
 ```
 
-#### While bim de.c
+#### While bin dec.c
 
 ```c
 #include <stdio.h>
@@ -299,4 +299,93 @@ int main(){
     return 0;
 
 }
+```
+#### Coleção2.c
+```c
+#include <stdio.h>
+int main(){
+
+    int loud[10]={1,21,11,8,19,45,7,24,26,18};
+    int soma = 0;
+    int media = 0;
+    int i;
+    for(i=0; i <= 9 ; i++){
+        soma += loud[i];
+
+    }
+    printf("O resultado da soma é %d\n",soma);
+    for(i = 0; i < 10 ; i++){
+        media += loud[i];
+
+    }
+    printf("O resultado da média é %d/n",(media / 10));
+    for( i = 0 ; i < 10 ; i++){
+        if( loud[i]% 2 == 0){
+            printf("%d\n",loud[i]);
+        }
+    }
+
+return 0;
+
+}
+```
+#### Coleção1.c
+
+```c
+//Array é um conjunto de Dados sobre um determinado 
+//assunto. Podemos falar de valores numérico, textos,
+//datas, ou objetivos.
+#include <stdio.h>
+
+
+int main(){
+    int valores [5] ={10,5,8,12,7};
+    printf("%d\n",valores[3]);
+    return 0;
+}
+
+```
+#### For1.c
+```c
+#include <stdio.h>
+
+int main(){
+    int x;
+    for(x =1; x <= 10 ; x++){
+        printf("%d\n",x);
+    }
+    return 0;
+}
+```
+#### Base Expoente.c
+
+```c
+#include <stdio.h>
+
+int calcularPotencia(int base, int expoente) {
+    int resultado = 1;
+
+    for (int i = 0; i < expoente; i++) {
+        resultado *= base;
+    }
+
+    return resultado;
+}
+
+int main() {
+    int base, expoente;
+
+    printf("Digite um numepro para base: ");
+    scanf("%d", &base);
+
+    printf("Digite um numero para o expoente: ");
+    scanf("%d", &expoente);
+
+    int resultado = calcularPotencia(base, expoente);
+
+    printf("%d elevado a %d é igual a %d\n", base, expoente, resultado);
+
+    return 0;
+}
+
 ```
