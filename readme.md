@@ -430,3 +430,90 @@ int main(){
     return 0;
 }
 ```
+#### Pass_por_valor.c
+
+```c
+#include <stdio.h>
+
+int subtrair(int x, int y) {
+    printf("Valor de x é %d e y é %d\n", x, y);
+    return x - y;
+}
+
+int main() {
+    int v1 = 10;
+    int v2 = 5;
+    
+    printf("Posição de v1 é %p e v2 é %p\n", &v1, &v2);
+    
+    int rs = subtrair(v1, v2);
+    
+    printf("O Resultado é %d\n", rs);
+
+    return 0;
+}
+
+```
+#### Pass_por_ref.c
+```c
+#include<stdio.h>
+
+int subtrair(int *x, int *y){
+    printf("posição x %p\n e Posição y %p",x,y);
+    return *x - *y;
+
+}
+int main(){
+    
+    int v1 = 10;
+    int v2 = 5;
+    printf("Posição v1 %p\n e Posição v2 %p",&v1,&v2);
+    int rs = subtrair(&v1, &v2);
+    printf("O Resultado e %d\n",rs);
+    
+    return 0;
+}
+```
+#### Arr_s_ptr1.c
+
+```c
+
+#include<stdio.h>
+int main(){
+     int valores[5] = {1,2,3,4,5};
+     printf("Exibindo o primiero valor: %d\n",valores[0]);
+     printf("Exibindo o segundo  valor: %d\n",valores[1]);
+     int i;
+     for(i = 0; i < 5; i++){
+     printf("Exibindo: %d\n",valores[i]);
+
+     }
+return 0;
+
+}
+```
+#### Arr_c_ptr1.c
+```c
+#include<stdio.h>
+
+int main(){
+   int valores[5] = {38,2,3,4,5};
+   int *ptr_valores = valores;
+
+   // printf("%d\n",*ptr_valores);
+  // printf("%p\n",ptr_valores);
+
+ //ptr_valores++;
+  
+  //printf("%d\n",*ptr_valores);
+  // printf("%p\n",ptr_valores);
+    int i;
+    for(i = 1; i<= 5 ; i++){
+        printf("O valor de %d e a posição de memoria é %p\n",*ptr_valores,ptr_valores);
+        ptr_valores++;
+        
+    }
+    return 0;
+
+}
+```
